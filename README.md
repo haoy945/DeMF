@@ -4,6 +4,11 @@ This is a [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) implement
 
 > Boosting 3D Object Detection via Object-Focused Image Fusion  
 > Hao Yang*, Chen Shi*, Yihong Chen, Liwei Wang 
+>
+
+#### [paper]()
+![Pipeline](figs/pipeline.png)
+
 
 ## Prerequisites
 **Step 1.** Create a conda environment and activate it.
@@ -22,7 +27,7 @@ conda activate demf
 python -m torch.distributed.launch --nproc_per_node=$GPUS --master_port=$PORT train.py configs/deformdetr/imvotenet_deform.py --launcher pytorch ${@:3}
 ```
 
-Or you can install the pre-trained image branch [here]().
+Or you can download the pre-trained image branch [here]().
 
 **Step 2.**
 Specify the path to the pre-trained image branch in [config](configs/demf/demf_votenet.py).
