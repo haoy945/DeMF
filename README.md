@@ -27,7 +27,7 @@ conda activate demf
 python -m torch.distributed.launch --nproc_per_node=$GPUS --master_port=$PORT train.py configs/deformdetr/imvotenet_deform.py --launcher pytorch ${@:3}
 ```
 
-Or you can download the pre-trained image branch [here]().
+Or you can download the pre-trained image branch [here](https://drive.google.com/file/d/1H0SGOSvfYU45ID38CvQohIyAUeAXm3Ra/view?usp=sharing).
 
 **Step 2.**
 Specify the path to the pre-trained image branch in [config](configs/demf/demf_votenet.py).
@@ -36,7 +36,7 @@ Specify the path to the pre-trained image branch in [config](configs/demf/demf_v
 ```shell
 python -m torch.distributed.launch --nproc_per_node=8 --master_port=$PORT train.py configs/demf/demf_votenet.py --launcher pytorch ${@:3}
 ```
-We also provide pre-trained DeMF [here](). Use eval.py to evaluate the pretrained model and you will get the 65.5mAP@0.25 and 46.1mAP@0.5.
+We also provide pre-trained DeMF [here](https://drive.google.com/file/d/1s7mOJbz3__qdGLpA10MbK2KLHDIX6rmX/view?usp=sharing). Use eval.py to evaluate the pretrained model and you will get the 65.5mAP@0.25 and 46.1mAP@0.5.
 ```shell
 python -m torch.distributed.launch --nproc_per_node=8 --master_port=$PORT test.py --config configs/demf/demf_votenet.py --checkpoint $CHECKPOINT --eval mAP --launcher pytorch ${@:4}
 ```
