@@ -5,7 +5,7 @@ _base_ = [
 ]
 
 # may also use your own pre-trained image branch
-load_from = '/path/to/pre-trained/image/branch'
+load_from = '/Path/to/Pre-trained/Image/Branch'
 
 class_names = ('bed', 'table', 'sofa', 'chair', 'toilet', 'desk', 'dresser',
                'night_stand', 'bookshelf', 'bathtub')
