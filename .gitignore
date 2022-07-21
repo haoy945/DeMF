@@ -1,5 +1,4 @@
 *.jpg
-*.txt
 
 # compilation and distribution
 __pycache__

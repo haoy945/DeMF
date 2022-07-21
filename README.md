@@ -11,6 +11,8 @@ This is a [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) implement
 
 
 ## Prerequisites
+The code is tested with Python3.7, PyTorch == 1.8, CUDA == 11.1, mmdet3d == 0.18.1, mmcv_full == 1.3.18 and mmdet == 2.14. We recommend you to use anaconda to make sure that all dependencies are in place. Note that different versions of the library may cause changes in results.
+
 **Step 1.** Create a conda environment and activate it.
 ```
 conda create --name demf python=3.7
@@ -40,6 +42,9 @@ We also provide pre-trained DeMF [here](https://drive.google.com/file/d/1s7mOJbz
 ```shell
 python -m torch.distributed.launch --nproc_per_node=8 --master_port=$PORT test.py --config configs/demf/demf_votenet.py --checkpoint $CHECKPOINT --eval mAP --launcher pytorch ${@:4}
 ```
+
+## Todo
+We will release the code of the DeMF (Fcaf3d based) soon.
 
 ## Citation
 If you find this work useful for your research, please cite our paper:
