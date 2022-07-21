@@ -18,7 +18,7 @@ from mmdet3d.core.bbox import points_cam2img
 from mmdet.core import build_bbox_coder, multi_apply
 from mmdet.models import HEADS
 
-__all__ = ["CAVoteHead", "DeMFHead"]
+__all__ = ["CAVoteHead", "DeMFVoteHead"]
 
 
 @HEADS.register_module()
