@@ -45,12 +45,12 @@ python -m torch.distributed.launch --nproc_per_node=8 --master_port=$PORT test.p
 
 ## Main Results
 We re-implemented VoteNet and ImVoteNet, which are some improvement over the original results.
-｜ Method | Point Backbone | Input | mAP@0.25 | mAP@0.5 |
-| :----: | :----: | :----: | :----: | :----: |
-｜ [VoteNet](configs/baseline/votenet.py) | PointNet++ | PC | 60.0 | 41.3 |
-｜ [ImVoteNet](configs/baseline/imvotenet.py) | PointNet++ | PC+RGB | 64.4 | 43.3 |
-｜ [DeMF(VoteNet based)](configs/demf/demf_votenet.py) | PointNet++ | PC+RGB | 65.6 (65.3) | 46.1 (45.4) |
-｜ DeMF(FCAF3D based) | HDResNet34 | PC+RGB | 67.4 (67.1) | 51.2 (50.5) |
+ Method | Point Backbone | Input | mAP@0.25 | mAP@0.5 |
+ :----: | :----: | :----: | :----: | :----: |
+ [VoteNet](configs/baseline/votenet.py) | PointNet++ | PC | 60.0 | 41.3 |
+ [ImVoteNet](configs/baseline/imvotenet.py) | PointNet++ | PC+RGB | 64.4 | 43.3 |
+ [DeMF(VoteNet based)](configs/demf/demf_votenet.py) | PointNet++ | PC+RGB | 65.6 (65.3) | 46.1 (45.4) |
+ DeMF(FCAF3D based) | HDResNet34 | PC+RGB | 67.4 (67.1) | 51.2 (50.5) |
 
 ## Todo
 We will release the code of the DeMF (Fcaf3d based) soon.
