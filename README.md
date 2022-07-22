@@ -1,5 +1,7 @@
 # Boosting 3D Object Detection via Object-Focused Image Fusion
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/boosting-3d-object-detection-via-object/3d-object-detection-on-sun-rgbd-val)](https://paperswithcode.com/sota/3d-object-detection-on-sun-rgbd-val?p=boosting-3d-object-detection-via-object)
+
 This is a [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) implementation of the paper Yang et al, "Boosting 3D Object Detection via Object-Focused Image Fusion".
 
 > Boosting 3D Object Detection via Object-Focused Image Fusion  
