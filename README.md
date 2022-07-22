@@ -48,3 +48,11 @@ We will release the code of the DeMF (Fcaf3d based) soon.
 
 ## Citation
 If you find this work useful for your research, please cite our paper:
+```
+@misc{https://doi.org/10.48550/arxiv.2207.10589,
+  author    = {Yang, Hao and Shi, Chen and Chen, Yihong and Wang, Liwei},
+  title     = {Boosting 3D Object Detection via Object-Focused Image Fusion},
+  publisher = {arXiv},
+  year      = {2022},
+}
+```
