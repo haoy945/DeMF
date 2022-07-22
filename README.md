@@ -6,7 +6,7 @@ This is a [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) implement
 > Hao Yang*, Chen Shi*, Yihong Chen, Liwei Wang 
 >
 
-#### [paper]()
+#### [paper](https://arxiv.org/abs/2207.10589)
 ![Pipeline](figs/pipeline.png)
 
 
