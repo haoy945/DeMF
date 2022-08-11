@@ -96,7 +96,7 @@ model = dict(
         ),
         num_classes=10,
         bbox_coder=dict(
-            type="ClassAgnosticBBoxCoderGFReg",
+            type="DeMFClassAgnosticBBoxCoder",
             num_dir_bins=12,
             with_rot=True,
             num_sizes=10,
