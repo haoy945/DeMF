@@ -54,8 +54,8 @@ We re-implemented VoteNet and ImVoteNet, which are some improvement over the ori
  [DeMF(VoteNet based)](configs/demf/demf_votenet.py) | PointNet++ | PC+RGB | 65.6 (65.3) | 46.1 (45.4) |
  DeMF(FCAF3D based) | HDResNet34 | PC+RGB | 67.4 (67.1) | 51.2 (50.5) |
 
-## Todo
-We will release the code of the DeMF (Fcaf3d based) soon.
+## DeMF (Fcaf3d based)
+We release the code of the DeMF (Fcaf3d based) in DeMF_fcaf branch.
 
 ## Citation
 If you find this work useful for your research, please cite our paper:
