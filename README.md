@@ -23,7 +23,7 @@ pip install mmsegmentation==0.14.1
 
 **Step 3.** Install MMDetection3D.
 ```
-git clone -b demf_fcaf https://github.com/haoy945/DeMF.git /mmdetection3d
+git clone -b DeMF_fcaf https://github.com/haoy945/DeMF.git /mmdetection3d
 cd /mmdetection3d
 pip install -r requirements/build.txt
 pip install -v -e .
